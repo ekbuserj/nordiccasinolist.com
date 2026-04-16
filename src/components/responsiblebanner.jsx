@@ -16,13 +16,13 @@ export default function ResponsibleBanner() {
         </div>
 
         <div className="rg-banner-links">
-          <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer" className="rg-link">
+          <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rg-link">
             StopSpillet <ExternalLink className="rg-ext" aria-hidden="true" />
           </a>
-          <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer" className="rg-link">
+          <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rg-link">
             ROFUS <ExternalLink className="rg-ext" aria-hidden="true" />
           </a>
-          <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer" className="rg-link rg-link-muted">
+          <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rg-link rg-link-muted">
             Spillemyndigheden <ExternalLink className="rg-ext" aria-hidden="true" />
           </a>
           <span className="rg-mini">

@@ -15,13 +15,13 @@ export default function DisclaimerBox({ title, children }) {
       </div>
       {children ? <div className="disc-body">{children}</div> : null}
       <div className="disc-links">
-        <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer" className="disc-link">
+        <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="disc-link">
           StopSpillet <ExternalLink className="disc-ext" aria-hidden="true" />
         </a>
-        <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer" className="disc-link">
+        <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored" className="disc-link">
           ROFUS <ExternalLink className="disc-ext" aria-hidden="true" />
         </a>
-        <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer" className="disc-link disc-link-muted">
+        <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="disc-link disc-link-muted">
           Spillemyndigheden <ExternalLink className="disc-ext" aria-hidden="true" />
         </a>
       </div>

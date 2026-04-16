@@ -31,10 +31,10 @@ export default function AgeModal() {
           Husk: spil kan være vanedannende. Spil ansvarligt.
         </p>
         <div className="age-modal-links">
-          <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored">
             ROFUS – frivillig udelukkelse <ExternalLink className="age-ext" aria-hidden="true" />
           </a>
-          <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">
             StopSpillet – hjælp til spilleproblemer <ExternalLink className="age-ext" aria-hidden="true" />
           </a>
         </div>

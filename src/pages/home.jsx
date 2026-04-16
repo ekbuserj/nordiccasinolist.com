@@ -130,7 +130,7 @@ export default function Home() {
           <span className="disclosure-icon" aria-hidden="true"><Info /></span>
           <p>
             <strong>Affiliateoplysning:</strong> NordicCasinoList modtager kommission fra casinoer via affiliate-links. Dette påvirker ikke vores vurderinger. Alle omtalte casinoer er licenseret af{' '}
-            <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer">Spillemyndigheden</a>.
+            <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">Spillemyndigheden</a>.
             Spil ansvarligt – kun for +18.
           </p>
         </div>
@@ -290,15 +290,15 @@ export default function Home() {
             <div className="rg-orgs">
               <h4>Officielle hjælpeorganisationer</h4>
               <div className="rg-org-links">
-                <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer" className="rg-org">
+                <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rg-org">
                   <img src="/logos/Spillemyndigheden.jpg" alt="Spillemyndigheden" />
                   <span>Spillemyndigheden.dk</span>
                 </a>
-                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer" className="rg-org">
+                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rg-org">
                   <img src="/logos/rofus.jpg" alt="ROFUS" />
                   <span>rofus.nu</span>
                 </a>
-                <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer" className="rg-org">
+                <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rg-org">
                   <img src="/logos/StopSpillet.jpg" alt="StopSpillet" />
                   <span>stopspillet.dk</span>
                 </a>

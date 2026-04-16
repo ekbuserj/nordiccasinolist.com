@@ -88,12 +88,12 @@ export default function NyeCasinoer() {
 
           <h2>Dansk licens – et must</h2>
           <p>
-            Alle casinoer på denne side har en gyldig licens fra <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer">Spillemyndigheden</a>. En dansk licens sikrer fair play, lovpligtig adgang til <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer">ROFUS</a> og overholdelse af danske spilleregler.
+            Alle casinoer på denne side har en gyldig licens fra <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">Spillemyndigheden</a>. En dansk licens sikrer fair play, lovpligtig adgang til <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored">ROFUS</a> og overholdelse af danske spilleregler.
           </p>
 
           <div className="age-notice-box">
             <span aria-hidden="true"><TriangleAlert className="icon-inline-lg" /></span>
-            <p>Online casino er kun for personer over 18 år. Spil ansvarligt. Hjælp tilgængelig på <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer">stopspillet.dk</a>.</p>
+            <p>Online casino er kun for personer over 18 år. Spil ansvarligt. Hjælp tilgængelig på <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">stopspillet.dk</a>.</p>
           </div>
         </div>
       </section>

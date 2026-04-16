@@ -157,7 +157,7 @@ export default function CasinoBonusser() {
             Alle dansk-licenserede casinoer er forpligtet til at tilbyde redskaber til ansvarligt spil. Du kan til enhver tid sætte grænser for indbetalinger, tab og spilletid direkte på det pågældende casino.
           </p>
           <p>
-            Har du brug for hjælp, kan du tilmelde dig <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer">ROFUS</a> for frivillig udelukkelse fra alle dansk-licenserede spillesider, eller kontakte <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer">StopSpillet</a>.
+            Har du brug for hjælp, kan du tilmelde dig <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored">ROFUS</a> for frivillig udelukkelse fra alle dansk-licenserede spillesider, eller kontakte <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">StopSpillet</a>.
           </p>
 
           <div className="age-notice-box">

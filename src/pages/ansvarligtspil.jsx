@@ -34,7 +34,7 @@ export default function AnsvarligtSpil() {
                 <span className="rw-icon" aria-hidden="true"><AlertOctagon /></span>
                 <div>
                   <strong>Brug for hjælp nu?</strong>
-                  <p>Ring til <a href="tel:70222825">StopSpillet: 70 22 28 25</a> (gratis) eller besøg <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer">stopspillet.dk</a> for at chatte med en rådgiver.</p>
+                  <p>Ring til <a href="tel:70222825">StopSpillet: 70 22 28 25</a> (gratis) eller besøg <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">stopspillet.dk</a> for at chatte med en rådgiver.</p>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ export default function AnsvarligtSpil() {
 
               <h2>Selvudelukkelse via ROFUS</h2>
               <p>
-                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer">ROFUS (Register Over Frivilligt Udelukkede Spillere)</a> er et gratis register, hvor du kan udelukke dig selv fra alle dansk-licenserede spillesider på én gang. Udelukkelsen kan sættes fra 1 dag til permanent.
+                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored">ROFUS (Register Over Frivilligt Udelukkede Spillere)</a> er et gratis register, hvor du kan udelukke dig selv fra alle dansk-licenserede spillesider på én gang. Udelukkelsen kan sættes fra 1 dag til permanent.
               </p>
               <p>
                 Alle casinoer med dansk licens er forpligtet til at tjekke ROFUS og afvise spillere, der er registreret.
@@ -79,21 +79,21 @@ export default function AnsvarligtSpil() {
 
               <h2>Officielle hjælpeorganisationer</h2>
               <div className="rg-official-links">
-                <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer" className="rg-off-link">
+                <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rg-off-link">
                   <img src="/logos/Spillemyndigheden.jpg" alt="Spillemyndigheden" />
                   <div>
                     <strong>Spillemyndigheden</strong>
                     <span>Danmarks officielle spilleregulator – kan modtage klager over licenserede operatører</span>
                   </div>
                 </a>
-                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer" className="rg-off-link">
+                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rg-off-link">
                   <img src="/logos/rofus.jpg" alt="ROFUS" />
                   <div>
                     <strong>ROFUS</strong>
                     <span>Gratis selvudelukkelsesregister – blokér dig selv fra alle dansk-licenserede spillesider</span>
                   </div>
                 </a>
-                <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer" className="rg-off-link">
+                <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rg-off-link">
                   <img src="/logos/StopSpillet.jpg" alt="StopSpillet" />
                   <div>
                     <strong>StopSpillet</strong>
@@ -143,7 +143,7 @@ export default function AnsvarligtSpil() {
                 <p>
                   <strong>18+ · Spil ansvarligt.</strong> Gambling kan skabe afhængighed.
                   Brug af dette site forudsætter, at du er myndig og overholder gældende dansk lovgivning.
-                  Ekstern hjælp: <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer">StopSpillet</a> · <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer">ROFUS</a>
+                  Ekstern hjælp: <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">StopSpillet</a> · <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored">ROFUS</a>
                 </p>
               </div>
             </div>
@@ -151,13 +151,13 @@ export default function AnsvarligtSpil() {
             <aside className="rg-sidebar">
               <div className="rgs-block">
                 <h4>Hurtig hjælp</h4>
-                <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer" className="rgs-btn">
+                <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rgs-btn">
                   <LifeBuoy className="rgs-ic" aria-hidden="true" /> StopSpillet hjælpelinje <ExternalLink className="rgs-ext" aria-hidden="true" />
                 </a>
-                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer" className="rgs-btn">
+                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rgs-btn">
                   <UserX className="rgs-ic" aria-hidden="true" /> Udeluk dig selv via ROFUS <ExternalLink className="rgs-ext" aria-hidden="true" />
                 </a>
-                <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer" className="rgs-btn">
+                <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="rgs-btn">
                   <Scale className="rgs-ic" aria-hidden="true" /> Spillemyndigheden <ExternalLink className="rgs-ext" aria-hidden="true" />
                 </a>
               </div>

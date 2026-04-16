@@ -23,13 +23,13 @@ export default function Header() {
             Kun for spillere over 18 år
           </span>
           <div className="trust-links">
-            <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">
               Spillemyndigheden <ExternalLink className="ext-icon" aria-hidden="true" />
             </a>
-            <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored">
               ROFUS <ExternalLink className="ext-icon" aria-hidden="true" />
             </a>
-            <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">
               StopSpillet <ExternalLink className="ext-icon" aria-hidden="true" />
             </a>
           </div>

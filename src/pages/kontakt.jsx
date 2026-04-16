@@ -68,15 +68,15 @@ export default function Kontakt() {
                 Oplever du problemer med spil, er følgende officielle ressourcer tilgængelige – uafhængige af NordicCasinoList:
               </p>
               <div className="help-links">
-                <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer" className="help-link">
+                <a href="https://www.stopspillet.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="help-link">
                   <strong>StopSpillet.dk</strong>
                   <span>Hjælp og rådgivning ved spilleproblemer</span>
                 </a>
-                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer" className="help-link">
+                <a href="https://www.rofus.nu" target="_blank" rel="noopener noreferrer nofollow sponsored" className="help-link">
                   <strong>ROFUS.nu</strong>
                   <span>Frivillig udelukkelse fra alle dansk-licenserede casinoer</span>
                 </a>
-                <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer" className="help-link">
+                <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="help-link">
                   <strong>Spillemyndigheden.dk</strong>
                   <span>Danmarks officielle spilleregulator</span>
                 </a>
@@ -96,7 +96,7 @@ export default function Kontakt() {
                 </div>
                 <div className="faq-mini-item">
                   <h4>Hvad gør jeg, hvis et casino ikke betaler ud?</h4>
-                  <p>Kontakt casinoets kundesupport direkte. Kan problemet ikke løses, kan du indberette det til <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer">Spillemyndigheden</a>.</p>
+                  <p>Kontakt casinoets kundesupport direkte. Kan problemet ikke løses, kan du indberette det til <a href="https://www.spillemyndigheden.dk/" target="_blank" rel="noopener noreferrer nofollow sponsored">Spillemyndigheden</a>.</p>
                 </div>
               </div>
             </div>
