@@ -1,0 +1,129 @@
+.kontakt-layout {
+  max-width: 840px;
+}
+
+.kontakt-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.ki-block h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  margin-bottom: 14px;
+}
+
+.ki-block p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.contact-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cc-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.contact-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+.contact-card p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.cc-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-light);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.cc-link:hover {
+  color: var(--primary);
+}
+
+.help-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.help-link {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 18px;
+  background: var(--off-white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: all var(--transition);
+}
+
+.help-link:hover {
+  border-color: var(--primary);
+  background: var(--white);
+}
+
+.help-link strong {
+  font-size: 0.92rem;
+  color: var(--primary);
+}
+
+.help-link span {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.faq-mini-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-mini-item h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+.faq-mini-item p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+.faq-mini-item a {
+  color: var(--primary-light);
+  text-decoration: underline;
+}

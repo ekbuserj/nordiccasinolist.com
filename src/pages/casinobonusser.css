@@ -1,0 +1,167 @@
+.bonus-types-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 560px) {
+  .bonus-types-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 960px) {
+  .bonus-types-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.bonus-type-card {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+.bonus-type-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.bt-icon {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+}
+
+.bt-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.bonus-type-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+}
+
+.bonus-type-card p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.bonus-compare-table {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--border);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.bct-header {
+  display: none;
+  padding: 14px 20px;
+  background: var(--primary-dark);
+  color: rgba(255,255,255,0.8);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .bct-header {
+    display: grid;
+    grid-template-columns: 1.8fr 2fr 1fr 0.8fr 1.2fr;
+    align-items: center;
+  }
+}
+
+.bct-row {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-bottom: 1px solid var(--border);
+  transition: background var(--transition);
+}
+
+.bct-row:last-child {
+  border-bottom: none;
+}
+
+.bct-row:hover {
+  background: var(--off-white);
+}
+
+@media (min-width: 768px) {
+  .bct-row {
+    display: grid;
+    grid-template-columns: 1.8fr 2fr 1fr 0.8fr 1.2fr;
+    align-items: center;
+    flex-direction: unset;
+    gap: 16px;
+  }
+}
+
+.bct-casino {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bct-logo {
+  width: 52px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.bct-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+}
+
+.bct-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.bct-bonus {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.rating-score {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text-dark);
+}
+
+.rating-max {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.bct-btn {
+  font-size: 0.85rem;
+  padding: 10px 18px;
+  white-space: nowrap;
+}

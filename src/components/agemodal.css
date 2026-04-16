@@ -1,0 +1,110 @@
+.age-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgba(13,26,46,0.92);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.age-modal {
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  padding: 48px 40px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 32px 80px rgba(0,0,0,0.4);
+}
+
+.age-modal-icon {
+  color: var(--accent);
+  margin-bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.age-modal-icon svg {
+  width: 52px;
+  height: 52px;
+}
+
+.age-ext {
+  width: 12px;
+  height: 12px;
+  margin-left: 6px;
+  opacity: 0.85;
+}
+
+.age-modal h2 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.age-modal p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.age-modal-links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 28px;
+}
+
+.age-modal-links a {
+  font-size: 0.82rem;
+  color: var(--primary-light);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color var(--transition);
+}
+
+.age-modal-links a:hover {
+  color: var(--primary);
+}
+
+.age-modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.age-confirm {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+}
+
+.age-deny {
+  background: none;
+  border: none;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 4px;
+  transition: color var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.age-leave {
+  width: 16px;
+  height: 16px;
+}
+
+.age-deny:hover {
+  color: var(--text-dark);
+}

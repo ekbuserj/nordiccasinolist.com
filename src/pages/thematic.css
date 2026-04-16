@@ -1,0 +1,122 @@
+.thematic-intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .thematic-intro {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.intro-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.intro-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+}
+
+.intro-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.intro-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+.intro-card p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.casinos-full-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 640px) {
+  .casinos-full-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .casinos-full-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.thematic-info {
+  max-width: 800px;
+}
+
+.thematic-info h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+
+.thematic-info h2:first-child {
+  margin-top: 0;
+}
+
+.thematic-info p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.thematic-info a {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+.age-notice-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: #fff8e6;
+  border: 1.5px solid #f5a623;
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-top: 32px;
+}
+
+.age-notice-box span {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.age-notice-box p {
+  font-size: 0.88rem;
+  color: #5a4000;
+  margin: 0;
+}
+
+.age-notice-box a {
+  color: #8a5f00;
+}
