@@ -1,14 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ShieldCheck, LogOut, ExternalLink } from 'lucide-react';
 import './agemodal.css';
 
 export default function AgeModal() {
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const confirmed = sessionStorage.getItem('ncl_age');
-    if (!confirmed) setVisible(true);
-  }, []);
+  const [visible, setVisible] = useState(() => {
+    try {
+      return !sessionStorage.getItem('ncl_age');
+    } catch {
+      return true;
+    }
+  });
 
   const confirm = () => {
     sessionStorage.setItem('ncl_age', 'confirmed');

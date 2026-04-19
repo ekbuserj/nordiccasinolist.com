@@ -1,13 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './cookiebanner.css';
 
 export default function CookieBanner() {
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const accepted = localStorage.getItem('ncl_cookies');
-    if (!accepted) setVisible(true);
-  }, []);
+  const [visible, setVisible] = useState(() => {
+    try {
+      return !localStorage.getItem('ncl_cookies');
+    } catch {
+      return true;
+    }
+  });
 
   const accept = () => {
     localStorage.setItem('ncl_cookies', 'accepted');
